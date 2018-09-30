@@ -1,0 +1,78 @@
+<!-- CSS Stylesheets with Relative Paths -->
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <!--This line links my html contact file with the css styling file-->
+    <link rel="stylesheet" href="reset.css">
+
+    <!-- We link our html to the Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- We link our html to our local CSS file -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!--Viewport tag-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>CSS Stylesheets with Relative Paths</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="nav-section">
+            <header>
+                <h1>Kevin Motanya</h1>
+            </header>
+            <div class="container">
+
+                <div class="topnav">
+                    <a href="index.html">About</a>
+
+                    <a href="portfolio.html">Portfolio</a>
+
+                    <a href="contact.html">Contact</a>
+
+                </div>
+            </div>
+            <br>
+
+        </div>
+        <div class="container">
+            <h2>Contact</h2>
+            <form action="/action_page.php">
+                <!-- this is the first row -->
+                <div class="row">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                    </div>
+                </div>
+                <!-- this is the second row -->
+                <div class="row">
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+                    </div>
+                </div>
+                <!-- this is the third row -->
+                <div class="row">
+                    <div class="checkbox">
+                        <textarea id="subject" name="subject" placeholder="Write me an awesome message.." style="height:200px;width:700px"></textarea>
+                    </div>
+                </div>
+                <!-- this is the fourth row -->
+                <div class="row">
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <br>
+    <h3></h3>
+    <!-- this is the footer-->
+    <footer>&copy; Copyright</footer>
+</body>
+
+</html>

@@ -1,0 +1,171 @@
+/**External CSS Stylesheet **/
+
+
+/*
+My student bio css styling file for 2A homework of UoM coding bootcamp
+*/
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+    background: #efeee7;
+    border: #333;
+}
+
+header {
+    border: #cccccc;
+    background: #ffffff;
+    font-family: 'Georgia', Times, 'Times New Roman', 'serif';
+}
+
+h1 {
+    position: ab;
+    left: 0;
+    top: 0;
+    width: 100;
+    border: #777777;
+    padding: 10px 0;
+    margin-top: 5px;
+    font-size: 28px;
+    float: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    color: #4aaaa5;
+}
+
+a {
+    color: #d21034;
+}
+
+.container {
+    border: #dddddd;
+    background: #ffffff;
+    margin: 0 auto;
+}
+
+#bio-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+#bio-image1 {
+    float: left;
+    width: 200px;
+    height: 200px;
+    right: 20px;
+}
+
+#bio-image2 {
+    float: left;
+    width: 200px;
+    height: 200px;
+    right: 20px;
+}
+
+#bio-image3 {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+#bio-image4 {
+    float: left;
+    ;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+#bio-image5 {
+    float: initial;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+
+/* Add a black background color to the top navigation */
+
+.topnav {
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: right;
+    color: #777777;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+/* Add a color to the active/current link */
+
+.topnav a.active {
+    background-color: gray;
+    color: white;
+}
+
+#submit {
+    color: #4aaaa5;
+}
+
+h3 {
+    padding: 3px 0;
+    margin: 0;
+    background-color: #4aaaa5;
+}
+
+footer {
+    padding: 15px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 11px;
+    color: #ffffff;
+    text-align: center;
+    background: #666666;
+}
+
+
+/* Large devices (laptops/desktops, 980px) */
+
+@media only screen and (max-width: 980px) {}
+
+
+/* Medium devices (landscape tablets, 768px) */
+
+@media only screen and (max-width: 768px) {}
+
+
+/* Small devices (portrait tablets and large phones, 640px) */
+
+@media only screen and (max-width: 640px) {
+    header {
+        position: relative;
+    }
+}
