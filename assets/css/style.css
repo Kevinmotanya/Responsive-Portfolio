@@ -93,6 +93,24 @@ a {
     height: 200px;
     margin-right: 20px;
 }
+
+aside{
+	width:270px;
+	float: right;
+	padding-top:8px;
+}
+
+#socialMedia{
+	padding-left: 60px
+}
+#socialMedia li{
+	display:inline;
+	list-style-type: none;
+	text-align:center;
+}
+
+#socialMedia img{
+	width:50px;
  #facebook.png {
        width: 10px;
     height: 10px;
