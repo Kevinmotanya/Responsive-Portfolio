@@ -93,7 +93,18 @@ a {
     height: 200px;
     margin-right: 20px;
 }
-
+ #facebook.png {
+       width: 20px;
+    height: 20px;
+    }
+ #linkedin.png {
+       width: 20px;
+    height: 20px;
+    }
+ github.png {
+       width: 20px;
+    height: 20px;
+    }
 
 /* Add a black background color to the top navigation */
 
