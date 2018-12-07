@@ -1,0 +1,35 @@
+.brand-logo {
+	margin-left: 10px;
+}
+.parallax-container .parallax img {
+    display: inline-flex;
+}
+
+#lowerparallax {
+	min-width: 100%;
+	max-height: 100%;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+	color: #cccccc;
+}
+
+#portfolio {
+	font-size: 1.4rem;
+}
+
+.bio {
+	border-bottom: 5px black;
+}
+
+img:hover {
+	-webkit-filter: brightness(110%);
+}
+
+#links {
+	margin-left: 10px;
+}
+
+h5#contact {
+	margin-left: 20px;
+}
