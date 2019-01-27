@@ -10,8 +10,10 @@
 	max-height: 100%;
 }
 
-.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+.card .card-action .card-content a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
 	color: #cccccc;
+	height: 150px;
+	width: 150px;
 }
 
 #portfolio {
@@ -32,4 +34,9 @@ img:hover {
 
 h5#contact {
 	margin-left: 20px;
+}
+
+h5{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	
 }
